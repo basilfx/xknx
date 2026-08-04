@@ -8,6 +8,10 @@ nav_order: 2
 
 # Unreleased changes
 
+### Features
+
+- **Experimental.** Add `xknx.cli`, a command line interface for interacting with devices on a KNX bus, which provides basic commands to interact with KNX devices, similar to ETS diagnostic tools. This subpackage is experimental and its command surface may still change in a future release.
+
 # 3.18.0 Protocol Droid 2026-08-02
 
 ### Bugfixes
@@ -1611,4 +1615,3 @@ loop.close()
 await sensor2.sync()
 ```
 ````
-
