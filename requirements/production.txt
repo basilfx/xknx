@@ -1,4 +1,5 @@
 async-timeout==5.0.1;python_version<"3.11"
 typing_extensions; python_version<"3.11"
+asyncclick==8.4.2.1
 cryptography==49.0.0
 ifaddr==0.2.0
